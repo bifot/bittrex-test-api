@@ -1,0 +1,29 @@
+{
+  "name": "bittrex-test-api",
+  "version": "1.0.0",
+  "description": "Bittrex Test Task.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifot/bittrex-test-api.git"
+  },
+  "keywords": [
+    "bittrex",
+    "api"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bifot/bittrex-test-api/issues"
+  },
+  "homepage": "https://github.com/bifot/bittrex-test-api#readme",
+  "dependencies": {
+    "node.bittrex.api": "^0.6.6",
+    "query-string": "^5.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
